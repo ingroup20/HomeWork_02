@@ -15,7 +15,7 @@ public class LottoChoose {
 		lc.canNumber(hateNumber);//篩選數字
 		
 		
-		System.out.print("======test");
+		System.out.print("======test*test");
 		System.out.print("======test2");
 		System.out.print("======test3");
 		System.out.print("======test4");
