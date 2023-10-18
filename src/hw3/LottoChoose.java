@@ -15,10 +15,14 @@ public class LottoChoose {
 		lc.canNumber(hateNumber);//篩選數字
 		
 		
+
 		System.out.print("======master");
+
+		System.out.print("======test*test");
+
 		System.out.print("======test2");
 		System.out.print("======test3");
-		
+		System.out.print("======test4");
 	}
 	
 	//篩選出可選的數字與個數
