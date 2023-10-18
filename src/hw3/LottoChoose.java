@@ -14,15 +14,6 @@ public class LottoChoose {
 		LottoChoose lc=new LottoChoose();
 		lc.canNumber(hateNumber);//篩選數字
 		
-		
-
-		System.out.print("======master");
-
-		System.out.print("======test*test");
-
-		System.out.print("======test2");
-		System.out.print("======test3");
-		System.out.print("======test4");
 	}
 	
 	//篩選出可選的數字與個數
@@ -65,7 +56,20 @@ public class LottoChoose {
 	public void choose6(int[] numTable ) {
 		int[] win= new int[6];
 		for(int i=0;i<6;i++) {
+
 			win[i]=(int)(Math.random()*numTable.length)+1;
+
+			for(int p=0;p<6;p++) {
+				while(true) {
+					if(win[i]!=win[p]) {
+						break;
+					}else {
+						win[i]=(int)(Math.random()*numTable.length)+1;
+					}
+				}
+				
+				
+			}
 		}
 		
 	}
