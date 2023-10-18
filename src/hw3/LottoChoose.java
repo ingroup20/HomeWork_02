@@ -18,7 +18,7 @@ public class LottoChoose {
 		System.out.print("======test");
 		System.out.print("======test2");
 		System.out.print("======test3");
-		
+		System.out.print("======test4");
 	}
 	
 	//篩選出可選的數字與個數
