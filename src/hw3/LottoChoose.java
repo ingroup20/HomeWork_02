@@ -15,6 +15,8 @@ public class LottoChoose {
 		lc.canNumber(hateNumber);//篩選數字
 		
 		
+		System.out.print("======test");
+		
 	}
 	
 	//篩選出可選的數字與個數
@@ -54,8 +56,11 @@ public class LottoChoose {
 	//隨機選六個數字，避免重複
 	
 	//顯示6個數字
-	public void choose6(int[] win) {
+	public void choose6(int[] numTable ) {
 		int[] win= new int[6];
+		for(int i=0;i<6;i++) {
+			win[i]=(int)(Math.random()*numTable.length)+1;
+		}
 		
 	}
 	
@@ -63,7 +68,7 @@ public class LottoChoose {
 
 	
 	
-	
+
 	
 	
 		
